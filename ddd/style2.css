@@ -1,0 +1,42 @@
+.alert{
+
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c4c2f;
+    background-color: #e5eedd;
+    text-align: center;
+
+}
+.alert::before{
+    content: 'Qwerty-1234';
+    font-size: 20px;
+}
+.new{
+    background-color: aqua;
+}
+
+/* index2 */
+
+.card{
+
+    padding: 20px;
+    border: 1px solid #3c4c2f;
+    border-radius: 4px;
+    color: rgb(255, 32, 3);
+    background-color: rgb(238, 250, 8);
+    text-align: center;
+    font-size: 20px;
+    text-align: left;
+    line-height: 0.5;
+    width: 200px;
+}
+.list{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    text-align: center;
+}
